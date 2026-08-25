@@ -1,8 +1,10 @@
 """
 Patient No-Show & Clinic Efficiency Analysis — Streamlit Dashboard
-Run from the streamlit/ folder with: streamlit run app.py
-Expects the cleaned dataset at ../data/cleaned/appointments_with_risk_segments.csv
+Run with: streamlit run streamlit/app.py
+Expects the cleaned dataset at data/cleaned/appointments_with_risk_segments.csv
 """
+
+from pathlib import Path
 
 import pandas as pd
 import streamlit as st
@@ -18,7 +20,7 @@ st.set_page_config(
 # ------------------------------------------------------------------
 # Data loading
 # ------------------------------------------------------------------
-DATA_PATH = "../data/cleaned/appointments_with_risk_segments.csv"
+DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "cleaned" / "appointments_with_risk_segments.csv"
 
 @st.cache_data
 def load_data(path):
@@ -30,8 +32,8 @@ try:
 except FileNotFoundError:
     st.error(
         f"Could not find the cleaned dataset at `{DATA_PATH}`. "
-        "Run this app from the `streamlit/` folder, with `data/cleaned/appointments_with_risk_segments.csv` "
-        "present one level up (see the project README)."
+        "Ensure `data/cleaned/appointments_with_risk_segments.csv` is committed "
+        "to the repository."
     )
     st.stop()
 
