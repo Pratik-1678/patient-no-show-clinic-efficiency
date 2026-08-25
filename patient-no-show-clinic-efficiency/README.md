@@ -138,7 +138,6 @@ patient-no-show-clinic-efficiency/
 │   ├── executive_summary.md
 │   ├── power_bi_data_model.md
 │   ├── power_bi_dax_measures.md
-│   └── power_bi_dashboard_spec.md
 ├── requirements.txt
 └── .gitignore
 ```
