@@ -1,6 +1,3 @@
-# Regenerable intermediate data (produced by notebooks/01 and /04 — run them to recreate)
-data/cleaned/*.csv
-
 # Python
 __pycache__/
 *.pyc
