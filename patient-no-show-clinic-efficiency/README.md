@@ -96,10 +96,10 @@ An interactive, filterable alternative to the Power BI dashboard, built with Plo
 
 ## Dashboard Preview
 
-<img width="1321" height="741" alt="1 executive overview" src="https://github.com/user-attachments/assets/62f7296d-8cc1-4069-9789-a6e05a01f3b1" />
-<img width="1295" height="742" alt="2  no show driver" src="https://github.com/user-attachments/assets/5dfc7e2a-ec13-4794-ab65-bbf9218ec04f" />
-<img width="1316" height="740" alt="3  clinic efficiency" src="https://github.com/user-attachments/assets/4677217f-879e-484f-b170-f5d4ad18830b" />
-<img width="1327" height="732" alt="4 Risk   Action Plan" src="https://github.com/user-attachments/assets/5c63f7ea-7e34-4a85-9843-a1ebdbabf32a" />
+<img width="1321" height="741" alt="1 executive overview" src="patient-no-show-clinic-efficiency\powerbi\executive overview.png" />
+<img width="1295" height="742" alt="2  no show driver" src="patient-no-show-clinic-efficiency\powerbi\no show drivers.png" />
+<img width="1316" height="740" alt="3  clinic efficiency" src="patient-no-show-clinic-efficiency\powerbi\efficiency.png" />
+<img width="1327" height="732" alt="4 Risk   Action Plan" src="patient-no-show-clinic-efficiency\powerbi\action.png" />
 
 
 
