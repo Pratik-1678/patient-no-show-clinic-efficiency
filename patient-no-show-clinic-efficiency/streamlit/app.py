@@ -207,7 +207,7 @@ with tab2:
         st.plotly_chart(fig, use_container_width=True)
         st.caption("Second-strongest validated driver (Cramér's V = 0.169).")
 
-    st.subheader("No-show rate by risk segment (Phase 7)")
+    st.subheader("No-show rate by risk segment")
     rs = df.groupby("risk_segment")["no_show_flag"].agg(volume="count", no_show_rate="mean").reindex(RISK_ORDER)
     fig = px.bar(rs, y="no_show_rate", text=rs["no_show_rate"].apply(lambda x: f"{x:.1%}"),
                  color=rs.index, color_discrete_map={"Low Risk": "#639922", "Medium Risk": "#EF9F27", "High Risk": "#E24B4A"})
