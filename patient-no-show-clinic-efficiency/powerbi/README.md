@@ -6,4 +6,4 @@ Place your built `.pbix` file in this folder (e.g. `clinic_efficiency_dashboard.
 - Measure formulas: `docs/power_bi_dax_measures.md`
 - Full 3-page layout spec: `docs/power_bi_dashboard_spec.md`
 
-![alt text](<1.executive overview.png>) ![alt text](<2. no show driver.png>) ![alt text](<3. clinic efficiency.png>)
+![alt text](<patient-no-show-clinic-efficiency\powerbi\executive overview.png>) ![alt text](<patient-no-show-clinic-efficiency\powerbi\no show drivers.png>) ![alt text](<patient-no-show-clinic-efficiency\powerbi\efficiency.png>) ![alt text](<patient-no-show-clinic-efficiency\powerbi\action.png>)
