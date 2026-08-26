@@ -2,6 +2,8 @@
 
 End-to-end healthcare analytics project that identifies why patients miss scheduled clinic appointments, quantifies how much appointment capacity is lost as a result, and delivers evidence-based operational recommendations to recover it.
 
+**[Open the live Streamlit dashboard](https://pratik-1678-patient-no-show-clinic-efficien-streamlitapp-osx6gu.streamlit.app/)**
+
 **Tools:** Excel · Python (pandas, matplotlib, seaborn, scipy) · MySQL · Power BI · Streamlit + Plotly
 
 ---
@@ -145,6 +147,8 @@ patient-no-show-clinic-efficiency/
 ---
 
 ## How to Run
+
+The interactive dashboard is also available online: **[Launch Streamlit](https://pratik-1678-patient-no-show-clinic-efficien-streamlitapp-osx6gu.streamlit.app/)**.
 
 ```bash
 # 1. Install dependencies
